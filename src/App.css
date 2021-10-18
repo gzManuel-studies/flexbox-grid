@@ -1,12 +1,12 @@
 .container {
   display: flex;
-  flex-direction: row;/* row-reverse column column-reverse default:row */
-  flex-wrap: wrap; /* wrap-reverse default: nowrap */
-
+  flex-flow: column wrap;
+  height: 350px;
 }
 .box{
   width: 25%;
   text-align: center;
+  height: 75px;
 }
 .box1{
   background-color: rgb(226, 72, 72);
